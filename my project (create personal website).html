@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    main {
+      margin: 20px;
+    }
+    .resume-section {
+      margin-bottom: 20px;
+    }
+    .post {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body style="background: #e3eea3ad;"></body>
+
+    <header>
+    <h1>Welcome to My Personal Website!</h1>
+    </header><br><br>
+    <h3 style="text-align:center;color: rgb(255, 0, 149);">This is a place where I share my thoughts, projects, and experiences.</h3><br><br><hr>
+    <nav>
+      <img src="c:\Users\Pishtaz\Desktop\1661064301a555.jpg" alt="1661064301a555" style="float: right;" width="150px" height="252px">
+        <ul>
+          <li><a href="#home">Home</a></li><br>
+          <li><a href="#about">About</a></li><br>
+          <li><a href="#resume">Resume</a></li><br>
+          <li><a href="#recent posts">Recent Posts</a></li><br>
+          <li><a href="#posts">Posts</a></li><br>
+          <li><a href="#login">Login</a></li><br>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><br><hr>
+
+    <h2 style="text-align:center;">About Me</h2>
+    <p>
+      Hi, I'm Ilia Loghmani and I'm an Engineer. I studied and graduated from MIT University 
+      and now I am working in different companies in America and Europe
+      . I have 7 years of experience in the field of robotics engineering and I am interested in making robots.
+      All my achievements have been made for relief and assistance to people and military weapons projects and the progress of humanity.
+    </p><br><hr><br>
+
+    <h2 style="text-align:center;">Work Experience</h2>
+        <p><strong>Company Name : ABB</strong> mechanical engineer(1995 - 1997)</p>
+        <ol>
+            <li>The leader of the robotics team</li>
+            <li>Systematization and development of the robot</li>
+            <li>Making all kinds of robotic hands for different applications</li>
+        </ol>
+
+        <p><strong>Company Name : Milrem Robotics</strong> mechanical engineer 
+          and Artificial intelligence network designer(2015 - 2020)</p>
+        <ol>
+            <li>Construction of unmanned ground vehicle in military weapons</li>
+            <li>The leader of the robotics team</li>
+        </ol><br><hr><br>
+
+    <h2 style="text-align:center;">Recent Posts</h2>
+    <div class="post">
+      <ol>
+          <li><strong>Nano technology : </strong> Nanotechnology refers
+            to the branch of science and engineering devoted to designing, 
+            producing, and using structures, devices, and systems by manipulating atoms 
+            and molecules at nanoscale, i.e. having one or more dimensions of the order 
+            of 100 nanometres (100 millionth of a millimetre) or less. 
+            <a href="https://ec.europa.eu/health/scientific_committees/opinions_layman/en/nanotechnologies/l-2/1-introduction.htm#:~:text=Nanotechnology%20refers%20to%20the%20branch,of%20a%20millimetre)%20or%20less.">
+            For more information, you can click here.</a></li><br>
+          <li><strong>Artificial intelligence : </strong> Artificial intelligence is the ability of a computer or 
+            computer-controlled robot to perform tasks that are commonly 
+            associated with the intellectual processes characteristic of humans, 
+            such as the ability to reason.
+            <a href="https://www.britannica.com/technology/artificial-intelligence">
+              For more information, you can click here.</a>
+          </li><br>
+          <li><strong>Humanoid robot : </strong> A humanoid robot is a robot resembling the human body in shape. 
+            The design may be for functional purposes, 
+            such as interacting with human tools and environments, for 
+            experimental purposes, such as the study of bipedal locomotion, or for other purposes.
+            <a href="https://en.wikipedia.org/wiki/Humanoid_robot">
+              For more information, you can click here.</a>
+          </li>
+        </ol>
+    </div><br><hr><br>
+
+    <h2 style="text-align:center;">Post Menu</h2>
+    <form style="text-align:center;">
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" placeholder="Enter post title"><br><br>
+
+        <label for="content">Content:</label><br><br>
+        <textarea id="content" name="content" placeholder="Enter post content"></textarea><br><br>
+
+        <input type="submit" value="Create Post">
+    </form><br><br><hr><br>
+
+    <h2 style="text-align:center;">User Account</h2>
+    <form style="text-align:center;">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="phone" id="phone" name="phone" required><br><br>
+
+        <a href="#" onclick="forgotPassword()">Forgot Password?</a>
+        <script>
+            function forgotPassword() {
+                alert("Forgot Password? I cant do any thing for you:).");
+            }
+        </script><br><br>
+
+        please choose your gender: <br>
+        male<input type="radio" name="gender" value="male"><br>
+        female<input type="radio" name="gender" value="female"><br>
+        androgynous<input type="radio" name="gender" value="androgynous"><br>
+        nigger<input type="radio" name="gender" value="nigger"><br><br>
+
+        How often do you visit the site?<br><br>
+        <select name="time set">
+            <option value="daily">Daily visit</option>
+            <option value="weekly">Weekly visit</option>
+            <option value="monthly">Monthly visit</option>
+            <option value="yearly">Annual visit</option>
+        </select><br><br>
+
+        <textarea name="comments" cols="30" rows="10">Comments:</textarea><br><br>
+       I'm not Robot.<input type="checkbox" name="not a robot" required><br><br>
+        <input type="submit" value="Login"><input type="reset" value="RS"><br>
+
+    </form><br><br><hr><br>
+
+    <h2 style="text-align:center;">Contact</h2>
+    <form>
+      <ul>
+        <li style="font-size: x-large;">Address:</li>
+        <p>
+          U. 16, 4th FLR., No. 52
+          Niloufar Highway, Yasaman St. ,Sonbol Alley
+          IRAN, Isfahan
+        </p>
+        <li style="font-size: x-large;">Telephone:</li>
+        <p>09190392202</p>
+        <li style="font-size: x-large;">Email:</li>
+        <p>ilialoghmani@yahoo.com</p>
+        <li style="font-size: x-large;">Zip Code:</li>
+        <p>1234567890</p>
+      </ul>      
+    </form><br><br><br><br>
+
+    <footer>
+        <p>&copy; 2024 My personal Website,[Engineer Ilia Loghmani]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
